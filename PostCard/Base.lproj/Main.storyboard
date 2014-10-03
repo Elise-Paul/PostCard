@@ -99,13 +99,22 @@
                                     <action selector="buttonPress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H1S-j4-Sd0"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFN-ky-pbv">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="138" width="170" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="KR6-Wm-9nA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="81" width="280" height="71"/>
+                                    <rect key="frame" x="29" y="81" width="280" height="49"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -116,6 +125,7 @@
                                 <exclude reference="2Ms-06-BA6"/>
                                 <exclude reference="kSK-ZV-2YN"/>
                                 <exclude reference="qUX-30-Nwd"/>
+                                <exclude reference="FFN-ky-pbv"/>
                                 <exclude reference="KR6-Wm-9nA"/>
                             </mask>
                         </variation>
@@ -125,6 +135,7 @@
                                 <include reference="2Ms-06-BA6"/>
                                 <include reference="kSK-ZV-2YN"/>
                                 <include reference="qUX-30-Nwd"/>
+                                <include reference="FFN-ky-pbv"/>
                                 <include reference="KR6-Wm-9nA"/>
                             </mask>
                         </variation>
@@ -139,6 +150,7 @@
                         <outlet property="enterNameTextfield" destination="2Ms-06-BA6" id="9Lc-lJ-gEM"/>
                         <outlet property="mailSend" destination="qUX-30-Nwd" id="ewn-IJ-Cuf"/>
                         <outlet property="messageLabel" destination="KR6-Wm-9nA" id="tsg-jY-u5k"/>
+                        <outlet property="nameLabel" destination="FFN-ky-pbv" id="4UD-mb-gJB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
